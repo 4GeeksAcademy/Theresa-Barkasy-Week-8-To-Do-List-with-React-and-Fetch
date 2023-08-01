@@ -2,7 +2,7 @@ import React, {useState} from "react";
 // import NewToDo from "./newtodo";
 // import ToDoCounter from "./todocounter";
 
-const MapList = () => {
+const MapFunction = () => {
 
     let toDoList = input.map(input => {
         return(
@@ -19,4 +19,4 @@ const MapList = () => {
     )
 };
 
-export default MapList;
+export default MapFunction;

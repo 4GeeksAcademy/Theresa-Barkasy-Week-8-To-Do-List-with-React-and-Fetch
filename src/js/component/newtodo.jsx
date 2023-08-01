@@ -11,15 +11,10 @@ const NewToDo = () => {
         return;
     }
 
-    const item = {
-        id: (Math.floor(Math.random() * 1000)),
-        value: {input},
-    };
+    setItems(oldList => [...oldList, input]);
+    setInput("");
 
-        setItems(oldList => [...oldList, input]);
-        setInput("");
-
-        // console.log(items)
+        console.log(items)
     }
 
     return(
@@ -39,11 +34,12 @@ const NewToDo = () => {
             </button>
         </ul>
         <ul>
-            {items.map(item => {
+            {items.map((item, index) => {
                 return (
-                    <li key={item.id}>{item.value}</li>
+                    <li key={index}>{item}</li>
                 )
             })}
+            <li>{items.length} tasks left</li>
         </ul>            
         </>
     );

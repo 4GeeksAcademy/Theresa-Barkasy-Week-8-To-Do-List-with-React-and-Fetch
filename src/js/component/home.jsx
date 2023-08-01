@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import NewToDo from "./newtodo"; 
-// import MapList from "./maplist";
+import MapFunction from "./mapFunction";
 // import ToDoCounter from "./todocounter";
 
 //create your first component
@@ -10,7 +10,7 @@ const Home = () => {
 			<h1 className="text-center mt-5">to do</h1>
 			<ul>
 				<NewToDo />
-				{/* <MapList /> */}
+				{/* <MapFunction /> */}
 				{/* <ToDoCounter /> */}
 			</ul>
 		</div>
