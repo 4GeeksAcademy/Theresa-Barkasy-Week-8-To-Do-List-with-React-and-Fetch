@@ -1,13 +1,70 @@
-ul li {
-    border: 1px grey; 
-    list-style: none;
-    padding-left: 5px;
+body {
+    background-color: #f0ece2;
+    height: 100vh;
 }
+
+h1 {
+    font-family: Didot;
+    border-top: 0px;
+}
+
+.inputWrapper { 
+    background-color: #c7b198;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 15px;
+    filter: drop-shadow(-0px -0px 3px #9f8b75);
+}
+
 input {
     border: none;
     width: 75%;
+    font-family: Avenir;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+button {
+    margin-left: 5px;
+}
+
+.createNewTask {
+    border-radius: 10px;
+    width: 20%;
+    font-family: Avenir;
+}
+
+.deleteButton {
+    border-radius: 5px;
 }
 
 .bi {
     float: right;
+}
+
+.listWrapper {
+    background: #dfd3c3;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 15px;
+    filter: drop-shadow(3px 3px 10px #9f8b75);
+}
+
+
+
+ul {
+    margin: 3%;
+}
+
+li {
+    border: 1px grey; 
+    list-style: none;
+    font-family: Avenir;
+    display: flex;
+    align-content: space-between;
+    width: 75%;
+}
+
+.footer {
+    font-family: Avenir;
 }
