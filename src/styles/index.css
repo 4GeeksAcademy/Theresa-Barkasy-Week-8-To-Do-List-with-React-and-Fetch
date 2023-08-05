@@ -62,7 +62,7 @@ ul {
 }
 
 li {
-    border: 1px grey; 
+    border: 2px grey; 
     list-style: none;
     font-family: Avenir;
     display: flex;
@@ -70,6 +70,11 @@ li {
     width: 75%;
 }
 
+hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 .footer {
-    font-family: Avenir;
+    font-family: Helvetica Neue;
 }

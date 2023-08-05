@@ -42,7 +42,8 @@ const NewToDo = () => {
                   removeListItem={removeListItem}
                 />
               ))}
-              <li>{
+              <hr></hr>
+              <li className="footer">{
                 items.length == 1 ? `${items.length} task left`
                 : items.length > 1 ? `${items.length} tasks left` 
                 : "Do or do not, there is no try."}</li>
