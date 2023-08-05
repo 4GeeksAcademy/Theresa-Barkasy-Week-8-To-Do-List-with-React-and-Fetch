@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Header from "./header";
-import NewToDo from "./newtodo"; 
+import NewToDo from "./newToDo"; 
 
 
 //create your first component

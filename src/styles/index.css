@@ -26,6 +26,8 @@ input {
 
 button {
     margin-left: 5px;
+    background-color: #596e79;
+    color: white;
 }
 
 .createNewTask {
@@ -35,7 +37,12 @@ button {
 }
 
 .deleteButton {
+    visibility: hidden;
     border-radius: 5px;
+}
+
+.listWrapper:hover .deleteButton {
+    visibility: visible;
 }
 
 .bi {
@@ -49,8 +56,6 @@ button {
     padding: 15px;
     filter: drop-shadow(3px 3px 10px #9f8b75);
 }
-
-
 
 ul {
     margin: 3%;
